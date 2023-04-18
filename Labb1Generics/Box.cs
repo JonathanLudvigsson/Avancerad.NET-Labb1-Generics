@@ -9,7 +9,6 @@ namespace Labb1Generics
 {
     public class Box : IEquatable<Box>
     {
-        //public int ID { get; set; }
         public int Height { get; set; }
         public int Length { get; set; }
         public int Width { get; set; }
@@ -18,8 +17,6 @@ namespace Labb1Generics
 
         public Box(int height, int length, int width)
         {
-            //IDCount++;
-            //ID = IDCount;
             Height = height;
             Length = length;
             Width = width;
